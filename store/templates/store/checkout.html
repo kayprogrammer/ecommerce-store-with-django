@@ -70,7 +70,7 @@
 	</div>
 </div>
 
-<script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script><script>
+<script src="https://www.paypal.com/sdk/js?client-id=AQEfJBAPFuwiwFc2bz3GD8HrOUycUkRkcUNP4IMhFqYoH8v1GXFZ96Uw16ALMVBiKAO7UBYh9VLr4mvU&currency=USD"></script><script>
 	var total = '{{order.get_cart_total}}'
 
 	// Render the PayPal button into #paypal-button-container
@@ -122,7 +122,7 @@
 		//Show payment if logged in user wants to buy an item that does not require shipping
 		document.getElementById('payment-info').classList.remove("hidden");
 	}
-
+          
 	var form = document.getElementById('form')
 
 	//csrftoken = form.getElementsByTagName("input")[0].value
